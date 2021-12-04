@@ -1,16 +1,13 @@
 import { Box, Container, Typography } from "@mui/material";
+import MainContainer from "../components/stateless/containers/main-container";
 import Background from "../components/stateless/misc/background";
 import MetaData from "../components/stateless/misc/meta-data";
 
 const Home = () => {
   return (
-    <Box minHeight="100vh">
-      <MetaData />
-      <Background />
-      <Container>
-        <Typography>Vinson</Typography>
-      </Container>
-    </Box>
+    <MainContainer>
+      <Typography>Vinson</Typography>
+    </MainContainer>
   );
 };
 

@@ -4,8 +4,11 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
   const theme = createTheme({
     palette: {
-      primary: {
-        main: "#000000",
+      text: {
+        primary: "#272932",
+      },
+      background: {
+        default: "#FDF7FA",
       },
     },
   });
