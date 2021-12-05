@@ -5,7 +5,7 @@ import Navbar from "../navigation/navbar";
 
 const MainContainer = ({ children }) => {
   return (
-    <Box height="100vh">
+    <Box height="100vh" bgcolor="background.default">
       <MetaData />
       <Navbar links={NAVBAR_LINKS} />
       <Container>{children}</Container>

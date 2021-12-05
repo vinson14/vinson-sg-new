@@ -8,9 +8,10 @@ function MyApp({ Component, pageProps }) {
         primary: "#272932",
       },
       background: {
-        default: "#FDF7FA",
+        default: "#f5f6fa",
       },
     },
+    typography: { fontFamily: "Oswald, sans-serif" },
   });
 
   return (
